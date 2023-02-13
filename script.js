@@ -10,7 +10,7 @@ function calculate(){
     }
 
     catch(error){
-        alert("Inavlid")
+        alert("Invalid")
     }
 }
 
