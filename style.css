@@ -1,0 +1,70 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,60,106,1) 29%, rgba(3,119,211,1) 51%, rgba(1,53,93,1) 76%, rgba(0,0,0,1) 100%);
+}
+.main{
+    padding: 10px 10px 10px 10px;
+    background: rgb(26,0,120);
+    background: linear-gradient(90deg, rgba(26,0,120,1) 0%, rgba(15,7,93,1) 86%);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1rem;
+}
+
+button{
+    background-color: black;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1rem;
+    margin: 2px 2px 4px 2px;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#c, #plus, #minus, #mul, #divide, #ev, #del{
+    background-color: rgb(210, 58, 2);
+}
+
+#c,#del{
+    width: 8.5rem;
+    height: 3rem;
+    background-color: rgb(255, 0, 0);
+}
+
+input{
+    border-radius: 10px;
+    margin-left: 3px;
+    height: 3rem;
+    width: 17rem;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    button{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    
+    #c,#del{
+        width: 7.5rem;
+        height: 3rem;
+    }
+    
+    input{
+        border-radius: 10px;
+        margin-left: 3px;
+        height: 3rem;
+        width: 241px;
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+    
+  }
