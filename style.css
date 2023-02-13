@@ -49,11 +49,11 @@ input{
 @media only screen and (max-width: 500px) {
     button{
         height: 3.5rem;
-        width: 3.5rem;
+        width: 2.7rem;
     }
     
     #c,#del{
-        width: 7.5rem;
+        width: 6rem;
         height: 3rem;
     }
     
@@ -61,7 +61,7 @@ input{
         border-radius: 10px;
         margin-left: 3px;
         height: 3rem;
-        width: 241px;
+        width: 200px;
         color: white;
         font-size: 2rem;
         margin-bottom: 8px;
